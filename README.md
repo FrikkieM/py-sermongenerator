@@ -9,7 +9,7 @@ It then generates the HTML for the Campus, Pastor, Title, MP3 link and PDF link 
 <b>Usage:</b>
 py main.py YYYYMMDD
 
-<em>Example:</b>
+<em>Example:</em>
 py main.py 20190725
 
 
