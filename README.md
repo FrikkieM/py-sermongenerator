@@ -13,3 +13,10 @@ py main.py YYYYMMDD
 py main.py 20190725
 
 
+Sermon files are in the following format:<br>
+YYYYMMDD_CAMPUS_PASTOR_TITLE.mp3 and YYYYMMDD_CAMPUS_PASTOR_TITLE.pdf in the 'WebsitePreke' folder.
+
+Example:
+20190725_TDO_DO_My_sermon_title.mp3 and 20190725_TDO_DO_My_sermon_notes.pdf
+
+
