@@ -36,7 +36,7 @@ class SermonHTMLGenerator:
         PastorDict = {"DO":"Danie Oosthuizen", 
                     "BF":"Berron Fuhri", "FM":"Frikkie v.d. Merwe", "AW":"Albert v.d. Westhuizen",
                     "RB":"Retief Booysen","DB":"Douglas Brooks","JR":"Jaco Roggeband","CG":"Christiaan Gouws",
-                    "CC":"Chante Cornelius","JS":"Johan Steyn","LdP":"Lemmer du Plessis",}
+                    "CC":"Chante Cornelius","JS":"Johan Steyn","LdP":"Lemmer du Plessis","MS":"Myan Subrayan",}
         try:
             #Find the pastor's abbreviation in uppercase as key and return that value from dictionary
             return PastorDict[s.upper()]
