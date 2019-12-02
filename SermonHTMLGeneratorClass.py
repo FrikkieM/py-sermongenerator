@@ -47,6 +47,7 @@ class SermonHTMLGenerator:
     def fnGetTitle(self, s):
         #Replaces the underscores in the title with spaces and changes "n" to "'n"
         s = re.sub(r"(?<=\w)(_)", r" ", s)  #Replace underscores with spaces
+        s = re.sub(r"(-)(_)", r"- ", s)     #Replaces -_ with -
         s = re.sub(r"( n )", r" 'n ", s)    #Replace n with 'n
         s = re.sub(r"(Q.)", r"?.", s)       #Replace Q. with ?. for questionmark at end of title
         s = re.sub(r"(E.)", r"!.", s)       #Replace E. with !. for questionmark at end of title
